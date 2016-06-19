@@ -1,0 +1,19 @@
+{
+  "name": "twixt-event-target",
+  "version": "0.0.1",
+  "description": "Proxy wrapper implementing EventTarget",
+  "main": "event-target.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/richRemer/twixt-event-target.git"
+  },
+  "author": "Richard Remer (reanjr@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richRemer/twixt-event-target/issues"
+  },
+  "homepage": "https://github.com/richRemer/twixt-event-target#readme"
+}
