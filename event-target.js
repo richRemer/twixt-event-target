@@ -16,7 +16,7 @@ function EventTarget(obj) {
     function remove(type, listener) {
         var i, extant = listeners[type];        
         if (!extant) return;
-        while (~(i = extant.indexOf(listener)) extant.splice(i, 1);
+        while (~(i = extant.indexOf(listener))) extant.splice(i, 1);
         if (!extant.length) delete listeners[type];
     }
     
