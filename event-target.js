@@ -34,7 +34,7 @@ function EventTarget(obj) {
             value: obj
         });
         
-        listeners[event.type].forEach(function(listener() {
+        listeners[event.type].forEach(function(listener) {
             listener.call(obj, event);
         });
         
